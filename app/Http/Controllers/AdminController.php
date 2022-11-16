@@ -42,6 +42,8 @@ class AdminController extends Controller
 
     }
 
+    
+
     public function AdminRegisterCreate(Request $request){
 
         Admin::insert([
